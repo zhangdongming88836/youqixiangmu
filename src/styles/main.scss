@@ -1,0 +1,18 @@
+@import "./confige.scss";
+@import "./normalize.scss";
+@import "./elementui.scss";
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.overflow-h {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}

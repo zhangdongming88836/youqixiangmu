@@ -1,0 +1,42 @@
+.login-form {
+    .el-input__prefix {
+        line-height: 40px;
+        i {
+            font-size: 30px;
+            color: #4961ee;
+        }
+    }
+    .el-form-item__content {
+        position: relative;
+        .show-pwd,
+        .getCode {
+            position: absolute;
+            right: 10px;
+            bottom: 0;
+        }
+        .show-pwd {
+            color: #4962ee;
+            cursor: pointer;
+        }
+    }
+    .el-form-item--mini.el-form-item {
+        // margin-bottom: 35px;
+        margin-bottom: 58px;
+    }
+    .el-input__inner {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 40px;
+        border: none !important;
+        border-radius: 0;
+        color: #8a8a8a;
+        font-size: 20px;
+        border-bottom: 1px solid #4962ee !important;
+    }
+    .getCode {
+        font-size: 20px;
+    }
+    .el-form-item {
+        margin-bottom: 35px;
+    }
+}
